@@ -1,0 +1,7 @@
+.mdl-grid
+  - [:yellow, :green, :blue, :red].each do |faction|
+    .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--3-col-desktop.mdl-cell--12-col-phone.mdl-cell--12-col-tablet
+      .mdl-card__title class="mdl-color--#{faction}"
+        h5 = t("factions.#{faction}.name")
+      .mdl-card__supporting-text
+        = t("factions.#{faction}.action")
