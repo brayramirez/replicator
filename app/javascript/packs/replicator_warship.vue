@@ -57,7 +57,7 @@ export default {
         return;
       }
 
-      let _warships = this.warships,
+      var _warships = this.warships,
           selectedIndex = Math.floor(Math.random() * _warships.length),
           generatedWarship = _warships[selectedIndex];
 
@@ -66,7 +66,7 @@ export default {
     },
 
     _destroyShip: function(warship) {
-      let index = this.activeWarships.indexOf(warship);
+      var index = this.activeWarships.indexOf(warship);
 
       this.activeWarships.splice(index, 1)
     },

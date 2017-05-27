@@ -18,27 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
   Vue.customElement('authority-score', Score, {});
   Vue.customElement('active-warship', Warship, {});
   Vue.customElement('replicator-warship', ReplicatorWarship, {});
-
-  // document.body.appendChild(document.createElement('hello'))
-  // const app = new Vue({
-  //   el: 'hello',
-  //   template: '<App/>',
-  //   components: { App }
-  // })
-  // Vue.component('hello', {
-  //   template: '<App/>',
-  //   components: { App }
-  // })
-
-  // Vue.component('score', {
-  //   template: '<Score/>',
-  //   components: { Score }
-  // })
-
-
-  // new Vue({
-  //   el: '#app'
-  // })
-
-  // console.log(app)
 })
