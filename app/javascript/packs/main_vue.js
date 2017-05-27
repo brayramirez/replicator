@@ -11,7 +11,7 @@ import Score from './score.vue';
 import Warship from './warship.vue';
 import ReplicatorWarship from './replicator_warship.vue';
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
 
   Vue.use(vueCustomElement);
 
